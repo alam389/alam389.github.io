@@ -1,0 +1,94 @@
+body {background-color: black;}
+
+h1, h2{color: aliceblue; text-align: center; font-size: 2.5rem; }
+p1 {color: gray; margin: auto; font-size: large; line-height: 40px;}
+h1,h2 {font-family: "Montserrat", sans-serif}
+h3 {font-family: 'Times New Roman', Times, serif; }
+h3{color: rgb(214, 214, 214); text-align: left; font-size: larger;
+}
+
+/* Apply styles to the photo grid */
+.photo-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -8px; /* Adjust margin as needed */
+}
+
+/* Style each column in the grid */
+.grid-column {
+  flex-basis: calc(50% - 16px); /* Set column width to 50% with some spacing */
+  margin: 8px; /* Adjust margin as needed */
+}
+
+/* Style the images inside the grid */
+.photo-grid img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+p2 { color: gray; font-size: large; line-height: 40px;}
+h4 {color: rgb(174, 0, 255); text-align: center;} 
+a {margin-left: 5%;}
+p {style="width: 100%; height: 40px; font-size: " small";"}
+
+body {margin-left: 20%; margin-right: 20%;}
+
+/* Apply styles to the navigation bar */
+nav {
+  background-color: #333; /* Background color of the navigation bar */
+}
+
+/* Style the list inside the navigation bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style the list items (links) */
+nav li {
+  display: inline;
+  margin-right: 20px; /* Adjust spacing between links */
+}
+
+/* Style the links */
+nav a {
+  text-decoration: none;
+  color: white; /* Text color of the links */
+  font-weight: bold;
+}
+
+/* Change link color on hover */
+nav a:hover {
+  color: yellow; /* Change color on hover */
+}
+
+/* Style the download button container */
+.download-button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style the download button */
+.download-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Add a hover effect */
+.download-button:hover {
+  background-color: #2980b9;
+}
+
+/* Add a subtle shadow on hover */
+.download-button:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
